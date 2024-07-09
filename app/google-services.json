@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "933688467009",
+    "project_id": "departmentalstoreapp",
+    "storage_bucket": "departmentalstoreapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933688467009:android:853f82d63973e1fa0eb0c0",
+        "android_client_info": {
+          "package_name": "com.example.departmentalstoreapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYJNQDGOVIlX3AMisG0iEZGgcY-u9Bo4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

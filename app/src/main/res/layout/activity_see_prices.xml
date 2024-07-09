@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grocery Items"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TableLayout
+            android:id="@+id/groceryTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_marginBottom="16dp">
+
+            <TableRow>
+                <TextView android:text="Soda" />
+                <TextView android:text="$1" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Beans" />
+                <TextView android:text="$2" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Mash Daal" />
+                <TextView android:text="$3" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Peanuts" />
+                <TextView android:text="$4" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Sugar" />
+                <TextView android:text="$2" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Salt" />
+                <TextView android:text="$1" android:gravity="end" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical Items"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TableLayout
+            android:id="@+id/medicalTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_marginBottom="16dp">
+
+            <TableRow>
+                <TextView android:text="Panadol" />
+                <TextView android:text="$5" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Desprine" />
+                <TextView android:text="$6" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Xavour" />
+                <TextView android:text="$7" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Cough Serup" />
+                <TextView android:text="$8" android:gravity="end" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cosmetic Items"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TableLayout
+            android:id="@+id/cosmeticTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView android:text="Perfums" />
+                <TextView android:text="$50" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Soap" />
+                <TextView android:text="$5" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Head n Shoulder" />
+                <TextView android:text="$10" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Palmolive" />
+                <TextView android:text="$6" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="UDY" />
+                <TextView android:text="$8" android:gravity="end" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="NXT Body Sprays" />
+                <TextView android:text="$12" android:gravity="end" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

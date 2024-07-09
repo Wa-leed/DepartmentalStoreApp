@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DepartmentalStoreApp</string>
+        <string name="products_list">We Deal in All Kinds Of Cosmetics\n1. Shampoo\n2. Soap\n3. Conditioner\n4. Hair Colour\n5. Makeup Items\n6. Baby Items\n\nGroceries\n1. Bread\n2. Eggs\n3. Beans\n4. Vegetables\n5. Snacks\n6. Juices\n\nMedicines\n1. Panadol\n2. Stomach Related Medicines\n3. Diabetic Medicine\n4. Hypertension Related Medicines</string>
+    <string name="logo">WElCOME</string>
+    <string-array name="country_array">
+        <item>Pakistan</item>
+        <item>USA</item>
+        <item>India</item>
+        <item>UAE</item>
+        <item>Canada</item>
+        <item>Palestine</item>
+        <item>Jordan</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Grocery Items</item>
+        <item>Medical Items</item>
+        <item>Cosmetic Items</item>
+    </string-array>
+
+
+    </resources>
+
